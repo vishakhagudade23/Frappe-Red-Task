@@ -23,7 +23,7 @@ app_license = "mit"
 
 doc_events = {
     "Task": {
-        "before_save": "task_manager.utils.validate_task"
+        "before_save": "frappe_red_task.task_manager.utils.validate_task"
     }
 }
 
